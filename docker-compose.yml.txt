@@ -1,0 +1,8 @@
+version: "3"
+services: 
+   tm:
+     image: 'tomcat:9'
+     ports:
+       - "8080:8080"
+     volumes:
+       - "/home/ec2-user:/usr/local/tomcat/webapps"
