@@ -9,7 +9,7 @@ pipeline {
 	stages {
 		stage("fetch the code") {
 			steps {
-				git "https://github.com/pooja-ja/game-of-life.git"
+				git "https://github.com/pooja-ja/pipeline.git"
 			}
 		}
 		stage("build the package") {
